@@ -1,3 +1,123 @@
-.c3{
-    background-color: blue;
+.background-container{
+    background-image:url("https://q5u4w4c6.stackpathcdn.com/blog/wp-content/uploads/2022/08/word-image-80259-2.png");
+    background-size: cover;
 }
+
+.credentials-container{
+    background-image : linear-gradient(grey, black);
+    padding: 8px;
+    border-style: solid;
+    border-width: 2px;
+    height: 30vh;
+    width: 30vw;    
+    text-align: center;
+    margin-left: 37%;
+    margin-top: 16%;
+    border-radius: 14px;
+    opacity: 0.85;
+}
+
+.email-heading{
+    color: black;
+    font-size: 24px;
+    font-family:"Roboto";
+    font-weight: bold;
+}
+
+#opacity1{
+    opacity: 1;
+}
+
+.password-heading{
+    color: black;
+    font-size: 24px;
+    font-family:"Roboto";
+    font-weight: bold;
+}
+
+.image-size{
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-button{
+    border-radius: 15px;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    border-width: 0px;
+}
+
+.radial-gradient-background{
+    background-image: radial-gradient(#f5d071, #d99f5d);
+    background-size: cover;
+}
+.mat-login-title{
+    color:rgb(300, 119, 119);
+    font-size: 18px;
+}
+.input{
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

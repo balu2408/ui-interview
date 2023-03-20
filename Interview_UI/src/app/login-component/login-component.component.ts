@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { EmployeeService } from "../shared/services/employee.service";
 import { Router } from "@angular/router";
+import {MatCardModule} from "@angular/material/card";
 
 @Component({
   selector: 'app-login-component',
@@ -15,6 +16,7 @@ export class LoginComponentComponent {
     private employeeService:EmployeeService
 ){}
   loginVerify(){
+    
    this.loginValidation = this.employeeService.verifyLogin()         
      
    if(this.loginValidation){

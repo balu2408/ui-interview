@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { EmployeeDetailsComponent } from './employeeDetails/employee-details.component';
 import { FormsModule } from '@angular/forms';
 import { LoginComponentComponent } from './login-component/login-component.component';
+import { MatCardModule } from '@angular/material/card';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { LoginComponentComponent } from './login-component/login-component.compo
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
